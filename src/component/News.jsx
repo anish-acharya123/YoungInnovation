@@ -65,11 +65,16 @@ function News() {
         </div>
         <div
           className="news_cards"
-          data-aos="fade-right"
-          data-aos-duration="1000"
+          //   data-aos="fade-right"
+          //   data-aos-duration="1000"
         >
           {NewsList.map((data) => (
-            <div className={`news-card-section span-${data.id}`} key={data.id}>
+            <div
+              className={`news-card-section news_${data.id}`}
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              key={data.id}
+            >
               <img src={data.image} className="news-image-wrapper" alt="" />
               <div className="news_card_content">
                 <div className="news_title">{data.title}</div>
