@@ -65,7 +65,9 @@ function Whoweare() {
               data-aos="fade-left"
               data-aos-duration={data.value}
             >
-              <img className="whoweare_card_img" src={data.image} alt="" />
+              <div className="whoweare_img">
+                <img className="whoweare_card_img" src={data.image} alt="" />
+              </div>
               <div className="person_name">{data.name}</div>
             </div>
           ))}
