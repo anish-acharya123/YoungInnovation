@@ -5,6 +5,7 @@ import Campaigns from "./component/Campaigns";
 import Whoweare from "./component/Whoweare";
 import Swipe from "./component/Swipe";
 import News from "./component/News";
+import Resources from "./component/Resources";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Whoweare />
       <Swipe />
       <News />
+      <Resources />
     </div>
   );
 }

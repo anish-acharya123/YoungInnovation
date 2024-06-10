@@ -1,5 +1,5 @@
 .campaigns_main {
-  background-color: rgba(249, 249, 255, 1);
+  background-color: rgb(236, 236, 253);
   padding: 5rem 0;
 }
 
@@ -22,10 +22,11 @@
 }
 
 .campaigns-card-section {
+  background-color: #ffff;
   cursor: pointer;
   border-radius: 1.5rem;
   overflow: hidden;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
 .campaigns_card_content {
@@ -46,6 +47,7 @@
 .learn-more {
   color: rgba(29, 111, 163, 1);
   font-weight: 700;
+  padding: 1rem 0 0 0;
 }
 .campaigns-image-wrapper {
   width: 100%;
