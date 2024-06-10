@@ -1,0 +1,35 @@
+.swipe_main {
+  background-color: rgba(249, 249, 255, 1);
+}
+
+.swiper {
+  width: 80rem;
+  height: auto;
+  padding: 0 3rem;
+}
+
+.swipe_content {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.swipe_element {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.swipe_img > img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.swipe_name {
+  font-size: 1.2rem;
+  font-weight: 550;
+}

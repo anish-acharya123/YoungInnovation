@@ -3,6 +3,8 @@ import "./App.css";
 import Homepage from "./component/Homepage";
 import Campaigns from "./component/Campaigns";
 import Whoweare from "./component/Whoweare";
+import Swipe from "./component/Swipe";
+import News from "./component/News";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,11 +15,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <Homepage />
-        <Campaigns />
-        <Whoweare />
-      </header>
+      <Homepage />
+      <Campaigns />
+      <Whoweare />
+      <Swipe />
+      <News />
     </div>
   );
 }

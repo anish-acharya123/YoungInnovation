@@ -1,6 +1,5 @@
 .campaigns_main {
   background-color: rgba(249, 249, 255, 1);
-  height: 100vh;
   padding: 5rem 0;
 }
 
@@ -45,7 +44,8 @@
 }
 
 .learn-more {
-  color: blue;
+  color: rgba(29, 111, 163, 1);
+  font-weight: 700;
 }
 .campaigns-image-wrapper {
   width: 100%;
