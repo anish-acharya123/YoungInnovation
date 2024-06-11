@@ -46,10 +46,12 @@
   object-fit: cover;
   border-radius: 1.5rem;
 }
-.news_btn {
+
+/* button define for news, resource and contact page */
+.btn {
   padding: 2rem 0;
 }
-.news_btn > button {
+.btn > button {
   padding: 1rem 2rem;
   border: 2px solid rgba(29, 111, 163, 1);
   border-radius: 0.5rem;

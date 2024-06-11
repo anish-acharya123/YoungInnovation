@@ -9,13 +9,7 @@
 }
 
 .swipe_content {
-  max-width: 80rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 2rem 0;
-  overflow: hidden;
 }
 
 .swipe_element {
@@ -32,4 +26,10 @@
 .swipe_name {
   font-size: 1.2rem;
   font-weight: 550;
+}
+
+.swipe_element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

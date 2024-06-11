@@ -86,7 +86,7 @@ function News() {
             </div>
           ))}
         </div>
-        <div className="news_btn">
+        <div className="btn">
           <button data-aos="fade-up" data-aos-duration="1000">
             {" "}
             View all news{" "}

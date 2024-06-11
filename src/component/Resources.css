@@ -40,19 +40,6 @@
   color: rgb(109, 113, 116);
 }
 
-.resources_btn {
-  padding: 2rem 0;
-}
-.resources_btn > button {
-  padding: 1rem 2rem;
-  border: 2px solid rgba(29, 111, 163, 1);
-  border-radius: 0.5rem;
-  background-color: transparent;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
 .resources_img {
   text-align: left;
   max-width: 2.7rem;

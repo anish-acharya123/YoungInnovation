@@ -44,7 +44,7 @@ function Resources() {
         </div>
         <div
           className="resources_cards"
-          data-aos="fade-right"
+          data-aos="fade-left"
           data-aos-duration="1000"
         >
           {ResourceList.map((data) => (
@@ -69,7 +69,7 @@ function Resources() {
             </div>
           ))}
         </div>
-        <div className="resources_btn">
+        <div className="btn">
           <button data-aos="fade-up" data-aos-duration="1000">
             {" "}
             View all resources{" "}

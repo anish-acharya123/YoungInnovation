@@ -1,0 +1,54 @@
+.contact_main {
+  padding: 5rem 0;
+}
+.contact_wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.conten_about > .contact_p {
+  max-width: 25rem;
+}
+
+.contact_form {
+  /* background-color: blue; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+}
+
+.merge {
+  display: flex;
+  gap: 2rem;
+  /* background-color: purple; */
+  width: 100%;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  /* background-color: purple; */
+  width: 100%;
+}
+
+.contact-box > label {
+  font-size: 1.2rem;
+}
+
+.contact-box > input,
+textarea {
+  padding: 0.8rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.1rem solid gray;
+}

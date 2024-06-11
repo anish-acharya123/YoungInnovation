@@ -6,6 +6,8 @@ import Whoweare from "./component/Whoweare";
 import Swipe from "./component/Swipe";
 import News from "./component/News";
 import Resources from "./component/Resources";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,6 +24,8 @@ function App() {
       <Swipe />
       <News />
       <Resources />
+      <Contact />
+      {/* <Footer /> */}
     </div>
   );
 }

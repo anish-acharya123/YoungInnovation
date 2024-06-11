@@ -46,6 +46,10 @@ function Swipe() {
       spaceBetween: 0, // Space between slides in px
       freeMode: true,
 
+      autoplay: {
+        delay: 1000,
+      },
+
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -74,10 +78,10 @@ function Swipe() {
           ))}
         </section>
 
-        <div className="swiper-pagination"></div>
+        {/* <div className="swiper-pagination"></div> */}
         <div className="swiper-button-next"></div>
         <div className="swiper-button-prev"></div>
-        <div className="swiper-scrollbar"></div>
+        {/* <div className="swiper-scrollbar"></div> */}
       </div>
     </div>
   );
