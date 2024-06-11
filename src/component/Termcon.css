@@ -1,0 +1,36 @@
+.termscon_main {
+  padding: 2rem 0;
+}
+
+.termscon_wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terms_left {
+  color: gray;
+}
+
+.term_copy {
+  font-weight: bold;
+}
+
+.terms_right {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+.up-btn {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 1.7rem;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

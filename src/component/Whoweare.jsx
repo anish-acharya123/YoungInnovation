@@ -28,7 +28,7 @@ function Whoweare() {
     {
       id: 4,
       image: Person4,
-      name: "Anish Acharya",
+      name: "Jennifer Susan ",
       value: "2500",
     },
   ];

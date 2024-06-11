@@ -3,33 +3,48 @@ import "./Footer.css";
 import Image from "../assets/Footer.png";
 import Image1 from "../assets/logo.svg";
 
+// social media
+import Media1 from "../assets/Twitter.png";
+import Media2 from "../assets/linkend.png";
+import Media3 from "../assets/youtube.png";
+
 function Footer() {
   return (
     <footer className="footer">
-      <figure className="footer--heroimg">
+      <figure className="footer--img">
         <img src={Image} alt="footer-img" />
       </figure>
 
-      <div className="footer__overlay"></div>
-
-      <div className="footer__wrapper">
-        <div className="u-container">
-          <div className="footer__main">
-            <div className="footer__left">
-              <figure>
+      <div className="footer-overlay">
+        <div className="footer-wrapper">
+          <div className="footer-main">
+            <div className="footer-left">
+              <div className="footer-logo">
                 <img src={Image1} alt="logo" />
                 <div className="logo_text">Catalog</div>
-              </figure>
+              </div>
               <p className="u-section-description">
                 We are a collaboration of non-government organisation and
                 professionals working to ensure that government spending.
               </p>
+
+              <div className="footer-medias">
+                <a href="#">
+                  <img src={Media1} alt="" className="footer-media" />
+                </a>
+                <a href="#">
+                  <img src={Media2} alt="" className="footer-media" />
+                </a>
+                <a href="#">
+                  <img src={Media3} alt="" className="footer-media" />
+                </a>
+              </div>
             </div>
 
-            <div className="footer__right">
-              <div className="footer__linksection">
-                <h5 className="footer--heading">Links</h5>
-                <div className="footer__links">
+            <div className="footer-right">
+              <div className="footer-linksection">
+                <div className="footer--heading">Links</div>
+                <div className="footer-links">
                   <a href="#" className="footer--link">
                     Campaigns
                   </a>
@@ -44,9 +59,9 @@ function Footer() {
                   </a>
                 </div>
               </div>
-              <div className="footer__linksection">
-                <h5 className="footer--heading">Resources</h5>
-                <div className="footer__links">
+              <div className="footer-linksection">
+                <div className="footer--heading">Resources</div>
+                <div className="footer-links">
                   <a href="#" className="footer--link">
                     Toolkit
                   </a>
@@ -59,9 +74,9 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="footer__linksection">
-                <h5 className="footer--heading">Work withus</h5>
-                <div className="footer__links">
+              <div className="footer-linksection">
+                <div className="footer--heading">Work withus</div>
+                <div className="footer-links">
                   <a href="#" className="footer--link">
                     Contact Us
                   </a>
